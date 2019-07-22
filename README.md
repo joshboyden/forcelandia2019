@@ -18,6 +18,12 @@
 
 1. Clone and own [setup.sh from Heroku Salesforce Buildpack repo](https://github.com/heroku/salesforce-buildpack/blob/master/scripts/setup.sh) to create pipeline
 
+1. Create a sfdx project. `sfdx force:project:create --projectname forcelandia2019`
+
+1. Create a simple LWC cmp. `sfdx force:lightning:component:create --type lwc --componentname helloForcelandia --outputdir force-app/main/default/lwc`
+
+1. Create a package. 
+
 ## Sources 
 "Standing on the shoulders of giants"
 * https://github.com/wadewegner/salesforce-dx-pipeline-sample
