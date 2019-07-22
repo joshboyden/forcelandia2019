@@ -22,7 +22,11 @@
 
 1. Create a simple LWC cmp. `sfdx force:lightning:component:create --type lwc --componentname helloForcelandia --outputdir force-app/main/default/lwc`
 
-1. Create a package. 
+1. Create a package. `sfdx force:package:create -n Forcelandia2019 -d "My pipeline demo package" -t Unlocked -r force-app -v HubOrg`
+
+1. Run setup.sh
+
+1. 
 
 ## Sources 
 "Standing on the shoulders of giants"
