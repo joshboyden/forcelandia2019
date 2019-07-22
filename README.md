@@ -5,6 +5,8 @@
 
 1. Install the [Salesforce CLI](https://developer.salesforce.com/tools/sfdxcli).
 
+1. Install jq `brew install jq`
+
 1. Log into the four orgs you'll use with the Salesforce CLI and give them aliases:
 
     - **Dev Hub (e.g.. "HubOrg")**: this will create scratch orgs for your Review Apps
@@ -17,6 +19,8 @@
 1. Ensure you see all four orgs when you run `sfdx force:org:list`.
 
 1. Clone and own [setup.sh from Heroku Salesforce Buildpack repo](https://github.com/heroku/salesforce-buildpack/blob/master/scripts/setup.sh) to create pipeline
+
+1. Create an app.json and a sfdx.yml 
 
 1. Create a sfdx project. `sfdx force:project:create --projectname forcelandia2019`
 
